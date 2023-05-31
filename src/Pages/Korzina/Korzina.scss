@@ -1,0 +1,95 @@
+.korzina{
+    margin-bottom: 70px;
+    .items-list{
+    position: relative;
+        h1{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: end;
+            margin-top: 30px;
+            margin-bottom: 70px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #252525;
+            b{
+                font-weight: 700;
+                text-align: center;
+                color: #252525;
+            }
+        }
+    }
+    .items-kr{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid black;
+        .item-kz{
+            .item-img{
+                display: inline-flex;
+                width: 95px;
+                height: 110px;
+                margin-right: 10px;
+            }
+            .item-name{
+                p{
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #E0BEA2;
+                    margin-bottom: 30px;
+                }
+                h5{
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #252525;
+                }
+            }
+            .item-color{
+                border: 3px solid #ffffff;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                outline: .5px solid rgb(0, 0, 0);
+            }
+            .razmer{
+                width:100px;
+            }
+            .counter{
+                height: 50px;width: 100px;border: 0.5px solid rgb(204, 204, 204);
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+                h6{
+                    margin: 0 10px;
+                    user-select: none
+                }
+                .cnbtn{
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                }
+            }
+            h4{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                color: #252525;
+            }
+            .dbtn{
+                border: none;
+                outline: none;
+                background-color: transparent;
+                margin-left: 30px;
+            }
+        }
+    }
+}

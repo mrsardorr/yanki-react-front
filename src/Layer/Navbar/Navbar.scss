@@ -1,0 +1,68 @@
+
+nav{
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    z-index: 100;
+    padding: 24px 0;
+
+    .back{
+        display: none;
+    }
+    
+    .modal{
+        z-index: 100;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-right: 25px;
+        transition: .2s;
+        &:hover{
+            color: #E0BEA2 !important;
+        }
+        svg:hover{
+            color: red;
+        }
+    }
+    select{
+        background-color: transparent;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    option{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        cursor: pointer;
+        color: #252525;
+    }
+}

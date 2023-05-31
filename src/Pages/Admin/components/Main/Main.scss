@@ -1,0 +1,11 @@
+.controller-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+}
+
+h2.controller-title {
+  text-align: center;
+  margin: 20px 0;
+}

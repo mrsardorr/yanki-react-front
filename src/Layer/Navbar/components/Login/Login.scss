@@ -1,0 +1,23 @@
+.modal-backdrop{
+    z-index: 99 !important;
+}
+.lgin{
+    .modal-links{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 20px;
+        a{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            text-decoration-line: underline;
+            color: #252525;
+            margin-right: 0;
+        }
+    }
+}
+    
